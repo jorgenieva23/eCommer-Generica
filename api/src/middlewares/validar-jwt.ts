@@ -27,7 +27,7 @@ export const validarJWT = (
   const token = req.header("x-token");
 
   if (!token) {
-    return res.status(401).send("No hay token en la petición");
+    return res.status(401).send("No hay token en la pe2tición");
   }
 
   try {
